@@ -22,7 +22,7 @@ namespace API.Controllers
         static readonly string[] scopeRequiredByApi = new string[] { "access_as_user" };
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
+        { 
             _logger = logger;
         }
 

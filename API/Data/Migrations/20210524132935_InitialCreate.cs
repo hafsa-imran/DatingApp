@@ -3,7 +3,7 @@
 namespace API.Data.Migrations
 {
     public partial class InitialCreate : Migration
-    {
+    { 
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
