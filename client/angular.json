@@ -27,7 +27,7 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+				"./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -62,17 +62,11 @@
               "sourceMap": true,
               "namedChunks": true
             }
-          }, 
+          },
           "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-            "sslKey":"./ssl/server.key",
-            "sslCert":"./ssl/server.crt",
-            "ssl": true,
-            "browserTarget": "test:build"
-          },
           "configurations": {
             "production": {
               "browserTarget": "client:build:production"
